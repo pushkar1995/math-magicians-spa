@@ -11,7 +11,7 @@ function calculatorButtons({ onButtonClick }) {
       <button type="button" className="operator" onClick={innerHtmlClick}>AC</button>
       <button type="button" className="operator" onClick={innerHtmlClick}>+/-</button>
       <button type="button" className="operator" onClick={innerHtmlClick}>%</button>
-      <button type="button" className="operator" onClick={innerHtmlClick}>/</button>
+      <button type="button" className="operator" onClick={innerHtmlClick}>÷</button>
       <button type="button" className="number" onClick={innerHtmlClick}>7</button>
       <button type="button" className="number" onClick={innerHtmlClick}>8</button>
       <button type="button" className="number" onClick={innerHtmlClick}>9</button>
