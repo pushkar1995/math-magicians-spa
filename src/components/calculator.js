@@ -18,14 +18,14 @@ function Calculator() {
     <div className="calculator-container">
       <div className="screen">
         <span>
-        {calculatorState.total}
-        {' '}
-        {calculatorState.operation}
-        {' '}
-        {calculatorState.next}
+          {calculatorState.total}
+          {' '}
+          {calculatorState.operation}
+          {' '}
+          {calculatorState.next}
         </span>
       </div>
-      <CalculatorButtons  onButtonClick={handleClick}/>
+      <CalculatorButtons onButtonClick={handleClick} />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function calculatorButtons ({ onButtonClick }) {
+function calculatorButtons({ onButtonClick }) {
   const innerHtmlClick = (event) => {
     const value = event.target.innerHTML;
     onButtonClick(value);
@@ -28,7 +28,7 @@ function calculatorButtons ({ onButtonClick }) {
       <button type="button" className="number" onClick={innerHtmlClick}>.</button>
       <button type="button" className="operator equal" onClick={innerHtmlClick}>=</button>
     </div>
-  )
+  );
 }
 
 calculatorButtons.propTypes = {
