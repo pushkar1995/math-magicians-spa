@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 function FetchedQuotesFromApi() {
   const [quotes, setQuotes] = useState([]);
   const [loading, setLoading] = useState(true);
