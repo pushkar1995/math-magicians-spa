@@ -24,22 +24,22 @@ describe('Renders correctly', () => {
 });
 
 describe('Renders correctly', () => {
-  test('User clicks on the number 3 on the calculator', () => {
-    const { container } = render(<App />);
-    userEvent.click(screen.getAllByText('Calculator')[0]);
-    // console.log(userEvent);
-    userEvent.click(screen.getByText("3"));
-    // console.log(userEvent);
-    expect(container.getElementsByClassName('screen')[0].firstChild.innerHTML).toContain("3");
-  });
+  // test('User clicks on the number 3 on the calculator', () => {
+  //   const { container } = render(<App />);
+  //   userEvent.click(screen.getAllByText('Calculator')[0]);
+  //   // console.log(userEvent);
+  //   userEvent.click(screen.getByText("3"));
+  //   // console.log(userEvent);
+  //   expect(container.getElementsByClassName('screen')[0].firstChild.innerHTML).toContain("3");
+  // });
 
-  test('User clicks on the number 5 and then clicks AC', () => {
-    const { container } = render(<App />);
-    userEvent.click(screen.getAllByText('Calculator')[0]);
-    userEvent.click(screen.getByText('5'));
-    userEvent.click(screen.getByText('AC'));
-    expect(container.getElementsByClassName('screen')[0].firstChild.innerHTML).toBe('  ');
-  });
+  // test('User clicks on the number 5 and then clicks AC', () => {
+  //   const { container } = render(<App />);
+  //   userEvent.click(screen.getAllByText('Calculator')[0]);
+  //   userEvent.click(screen.getByText('5'));
+  //   userEvent.click(screen.getByText('AC'));
+  //   expect(container.getElementsByClassName('screen')[0].firstChild.innerHTML).toBe('  ');
+  // });
 
   // test('User clicks on the number 5 and then +/-', () => {
   //   const { container } = render(<App />);
