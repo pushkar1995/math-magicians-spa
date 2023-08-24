@@ -1,4 +1,4 @@
-import calculate from './calculate';
+import calculate from '../logic/calculate';
 
 describe('User interactions with calculator from scratch', () => {
   let prevState = { total: null, next: null, operation: null };
