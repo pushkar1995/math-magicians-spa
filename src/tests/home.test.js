@@ -6,7 +6,7 @@ describe('HomePage component', () => {
   it('renders correctly', () => {
     const { getByText } = render(<HomePage />);
     const header = getByText('Welcome to our page!');
-    expect(header).toBeInTheDocument();
+    expect(header).toBeTruthy();
   });
 
   test('HomePage renders correctly', () => {

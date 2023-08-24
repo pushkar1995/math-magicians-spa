@@ -36,11 +36,12 @@ describe('User interactions with calculator from scratch', () => {
 
   test('Multiply', () => {
     prevState = calculate(prevState, '2');
-    prevState = calculate(prevState, '*');
+    prevState = calculate(prevState, 'x');
     prevState = calculate(prevState, '5');
     prevState = calculate(prevState, '=');
     expect(prevState).toMatchObject({ total: '10', next: null, operation: null });
   });
+
   beforeEach(() => {
     prevState = { total: null, next: null, operation: null };
   });
