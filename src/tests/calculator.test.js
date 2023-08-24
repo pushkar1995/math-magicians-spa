@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
-import Calculator from './calculator';
+import Calculator from '../components/calculator';
 import App from '../App';
 
 describe('Renders correctly', () => {

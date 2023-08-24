@@ -2,14 +2,14 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
-import NavBar from './Navbar';
-import App from '../../App';
+import NavBar from '../components/Navbar/Navbar';
+import App from '../App';
 
 test('Test NavigationBar', () => {
   const tree = render(
     <BrowserRouter>
       <NavBar />
-    </BrowserRouter>,
+    </BrowserRouter>
   );
   expect(tree).toMatchSnapshot();
 });
