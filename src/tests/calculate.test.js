@@ -29,7 +29,7 @@ describe('User interactions with calculator from scratch', () => {
     prevState = calculate(prevState, '=');
     expect(prevState).toMatchObject({ total: '7', next: null, operation: null });
   });
-  
+
   beforeEach(() => {
     prevState = { total: null, next: null, operation: null };
   });
@@ -116,14 +116,6 @@ describe('User interactions with calculator on existing object', () => {
     prevState = calculate(prevState, '=');
     expect(prevState).toMatchObject({ total: '0', next: null, operation: null });
   });
-
-  // test('Override operation with existing total', () => {
-  //   let prevState = { total: 10, next: null, operation: '+' };
-  //   prevState = calculate(prevState, '*');
-  //   prevState = calculate(prevState, '5');
-  //   prevState = calculate(prevState, '=');
-  //   expect(prevState).toMatchObject({ total: '50', next: null, operation: null });
-  // });
 
   test('Override operation', () => {
     let prevState = { total: null, next: null, operation: '-' };

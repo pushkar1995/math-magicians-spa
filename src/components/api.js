@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
 function FetchedQuotesFromApi() {
   const [quotes, setQuotes] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -17,7 +16,7 @@ function FetchedQuotesFromApi() {
       const response = await fetch(
         'https://api.api-ninjas.com/v1/quotes?category=success',
         { headers },
-      );q
+      );
 
       if (response.status >= 200 && response.status <= 299) {
         const fetchedData = await response.json();
