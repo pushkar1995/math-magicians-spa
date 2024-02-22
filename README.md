@@ -83,7 +83,7 @@ To get a local copy up and running, follow these steps:
 
 - GitHub: [@pushkar1995](https://github.com/pushkar1995)
 - Twitter: [@Pushkar9951](https://twitter.com/Pushkar9951)
-- LinkedIn: [pushkargautam](https://www.linkedin.com/in/pushkar-gautam-94a385271/)
+- LinkedIn: [pushkargautam](https://www.linkedin.com/in/pushkar-gautam/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
